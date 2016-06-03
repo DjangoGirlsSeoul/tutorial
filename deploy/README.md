@@ -126,7 +126,7 @@ Branch master set up to track remote branch master from origin.
 
 > **Note** 이미 PythonAnywhere 계정이 있으면, 이 부분을 다시 할 필요가 없어요.
 
-{% include "deploy/signup_pythonanywhere.md" %}
+{% include "/deploy/signup_pythonanywhere.md" %}
 
 ## GitHub에서 PythonAnywhere로 코드 가져오기
 
