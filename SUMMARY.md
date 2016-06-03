@@ -22,5 +22,5 @@
 *   [CSS - 예쁘게 만들기](css/README.md)
 *   [템플릿 확장하기](template_extending/README.md)
 *   [애플리케이션 확장하기](extend_your_application/README.md)
-*   [Django 양식](django_forms/README.md)
+*   [Django 폼](django_forms/README.md)
 *   [더 나아가기](whats_next/README.md)

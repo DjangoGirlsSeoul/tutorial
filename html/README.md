@@ -39,11 +39,12 @@ blog
 이제 에러가 사라졌어요! 축하합니다. 하지만 웹 사이트에 아무것도 보이지 않네요. 이제 하나씩 고쳐나가 봅시다.
 
 `post_list.html`템플릿 파일에 아래 내용을 넣어주세요.
+
 ```html
 <html>
  <p>Hi there!</p>
  <p>It works!</p>
-.</html>
+</html>
 ```
 
 웹 사이트가 어떻게 보이나요? 확인해보세요. http://127.0.0.1:8000/
@@ -109,7 +110,7 @@ blog
 
 아래 템플릿 예제가 있습니다.
 
-```
+```html
 <html>
   <head>
     <title>Django Girls blog</title>
