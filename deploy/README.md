@@ -20,7 +20,7 @@ Git은 많은 프로그래머가 사용하고 있는 `버전 제어 시스템(ve
 ## Git 설치하기
 > **Note** 이미 Git 설치가 끝냈다면, 다시 할 필요가 없어요. 이 부분을 넘기고 Git 저장소를 만드는 것부터 시작하세요.
 
-{% include "deploy/install_git.md" %}
+{% include "/deploy/install_git.md" %}
 
 ## Git 저장소 만들기
 
