@@ -11,4 +11,4 @@
 > 집에서 학습하시는 분들은 ['파이썬 및 코드 에디터 설치하기' 비디오 영상](https://www.youtube.com/watch?v=pVTaqzKZCdA&amp;t=4m43s)을 참고하세요.
 > 이 장의 일부는 [Geek Girls Carrots 튜토리얼](http://django.carrots.pl/)을 기초로 작성되었습니다.
 
-{% include "python_installation/instructions.md" %}
+{% include "/python_installation/instructions.md" %}
