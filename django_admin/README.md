@@ -3,15 +3,17 @@
 방금 막 모델링 한 글들을 장고 관리자에서 추가하거나 수정, 삭제할 수 있어요.
 
 이제 `blog/admin.py` 파일을 열어서 내용을 다음과 같이 바꾸세요.
-```
+
+```python
 from django.contrib import admin
 from .models import Post
 
 admin.site.register(Post)
 ```
+
 코드에서 알 수 있듯이 앞 장에서 정의했던 `Post`모델을 가져오고(import) 있어요. 관리자 페이지에서 만든 모델을 보려면 `admin.site.register(Post)`로 모델을 등록해야 해요.
 
-자, 이제 Post 모델을 볼까요? 웹 서버를 실행하려면 콘솔 창에서 `python manage.py runserver`를 실행하는걸 잊지 마세요. 브라우저를 열고 주소창에 http://127.0.0.1:8000/admin/ 입력하면 아래와 같은 로그인 페이지를 볼 수 있어요.
+자, 이제 `Post`모델을 볼까요? 웹 서버를 실행하려면 콘솔 창에서 `python manage.py runserver`를 실행하는걸 잊지 마세요. 브라우저를 열고 주소창에 http://127.0.0.1:8000/admin/ 입력하면 아래와 같은 로그인 페이지를 볼 수 있어요.
 
 ![로그인 페이지][1]
 
@@ -42,6 +44,6 @@ Superuser created successfully.
 
  [3]: images/edit_post3.png
 
-장고 관리자에 대해서 좀 더 알고 싶다면 장고 공식 문서를 참고하세요. : https://docs.djangoproject.com/en/1.8/ref/contrib/admin/
-
-자, 여러분은 내 첫 번째 장고 모델을 만들었어요! 잠깐 쉴 시간이 필요해요. 열심히 했으니 재충전을 위해 커피 한 잔(또는 차 한 잔) 또는 뭔가 먹고 돌아오세요.
+장고 관리자에 대해서 좀 더 알고 싶다면 [장고 공식 문서](https://docs.djangoproject.com/en/1.8/ref/contrib/admin/
+)를 참고하세요
+자, 내 첫 번째 장고 모델을 만들었어요! 잠깐 쉴 시간이 필요해요. 열심히 했으니 재충전을 위해 커피 한 잔(또는 차 한 잔) 또는 뭔가 먹고 돌아오세요.
